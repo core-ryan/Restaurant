@@ -1,3 +1,59 @@
-p {
-    color: aquamarine;
+header{
+    height: 100px;
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    border-style: double;
+    border-color: rgb(212, 0, 255);
+    border-width: 10px;
+}
+
+nav{
+    
+}
+
+#content{
+    background-color:rgb(0, 4, 27)
+}
+
+.title-card {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.title-card > p {
+    font-size: 48px;
+    color: white;
+}
+
+.content-card {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: grey;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(212, 0, 255);
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 700px;
+    text-align: center;
+}
+
+.content-card > p {
+    margin: 5px;
+    font-size: 22px;
+}
+
+.content-card > h2 {
+    font-size: 36px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.content-card > h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
