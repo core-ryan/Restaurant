@@ -38,6 +38,20 @@ nav > button{
     color: white;
 }
 
+.subtitle-card {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+}
+
+.subtitle-card > p {
+    font-size: 30px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
 .content-card {
     background-color: rgb(59, 59, 59);
     color: white;
@@ -68,4 +82,14 @@ nav > button{
 .content-card > h3 {
     font-size: 30px;
     margin-bottom: 10px;
+}
+
+.content-card > img {
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 15px;
 }
