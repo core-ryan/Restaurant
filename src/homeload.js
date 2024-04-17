@@ -11,7 +11,7 @@ function homeload(){
     const contentCardOne = document.createElement("div");
     contentCardOne.className = "content-card";
     const summary = document.createElement("p");
-    summary.innerHTML = "Drinks, Food, Sports... The Juice has it all. Enjoy every sports and premium PPVs on our 50+ TVs, an extensive drink/cocktail menu, and the most mouthwatering dishes in Las Vegas.";
+    summary.innerHTML = "Drinks, Food, Sports... The Juice has it all. Enjoy all sports and premium PPVs on our 50+ TVs, an extensive drink/cocktail menu, and the most mouthwatering dishes in Las Vegas.";
     const summary_heading = document.createElement("h3");
     summary_heading.innerHTML = "Let's get Juicin'";
     contentCardOne.appendChild(summary);
