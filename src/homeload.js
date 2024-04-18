@@ -1,3 +1,4 @@
+// Function to dynamically load all elements on "Home" page
 function homeload(){
     const contentElement = document.getElementById("content");
 
@@ -57,4 +58,5 @@ function homeload(){
     contentElement.appendChild(contentCardThree);
 }
 
+// Export function for use in index.js
 export default homeload;

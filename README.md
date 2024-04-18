@@ -1,4 +1,4 @@
-"# Restaurant" 
+Sample Restaurant Webpage using webpack, JS mondules
 
 Images sourced from:
 https://ik.imagekit.io/vjt1kualr/drinks/purple_haze/main-image.jpg

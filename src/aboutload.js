@@ -1,3 +1,4 @@
+// Function to dynamically load all elements of "About" page
 function aboutload(){
     const contentElement = document.getElementById("content");
 
@@ -57,4 +58,5 @@ function aboutload(){
     contentElement.appendChild(contentCardThree);
 }
 
+// Export function for use in index.js
 export default aboutload;

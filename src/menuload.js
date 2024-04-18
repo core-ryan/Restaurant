@@ -5,6 +5,7 @@ import piz from './img/pizza.jpg';
 import chick from './img/chicken.jpg';
 import barbeque from './img/bbq.jpg';
 
+// Function to dynamically load all elements of "Menu" page
 function menuload(){
     const contentElement = document.getElementById("content");
 
@@ -127,4 +128,5 @@ function menuload(){
 
 }
 
+// Export function for use in index.js
 export default menuload;
